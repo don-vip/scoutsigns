@@ -127,7 +127,6 @@ public class HttpConnector {
         } catch (final IOException e) {
             throw new HttpException(e);
         }
-        connection.setRequestProperty("Connection", "close");
         connection.setConnectTimeout(CONNECT_TIMEOUT);
         connection.setReadTimeout(READ_TIMEOUT);
     }
@@ -158,8 +157,6 @@ public class HttpConnector {
             }
         } catch (final IOException e) {
             throw new HttpException(e);
-        } finally {
-            disconnect();
         }
         return response;
     }
@@ -179,8 +176,8 @@ public class HttpConnector {
             try (BufferedWriter out =
                     new BufferedWriter(new OutputStreamWriter(connection.getOutputStream(), HttpUtil.ENCODING))) {
                 out.write(body);
-            } catch (final IOException ex) {
-                throw new HttpException(ex);
+            } catch (final IOException e) {
+                throw new HttpException(e);
             }
         }
     }
@@ -188,15 +185,6 @@ public class HttpConnector {
     private void connect() throws HttpException {
         try {
             connected = new ConnectionRetryAgent().run();
-        } catch (final Exception e) {
-            throw new HttpException(e);
-        }
-    }
-
-
-    private void disconnect() throws HttpException {
-        try {
-            connection.disconnect();
         } catch (final Exception e) {
             throw new HttpException(e);
         }
