@@ -56,7 +56,7 @@ class EditDialog extends ModalDialog implements StatusChangeObservable {
      * Creates a new comment for the selected road sign. A comment is created only if the comment component contains a
      * text.
      */
-    private final class AddCommentAction extends AbstractAction {
+    private class AddCommentAction extends AbstractAction {
 
         private static final long serialVersionUID = -5351629052918137710L;
 
