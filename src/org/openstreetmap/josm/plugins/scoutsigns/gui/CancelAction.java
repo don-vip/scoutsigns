@@ -25,7 +25,7 @@ import javax.swing.JDialog;
  * action the opened dialog window will be closed.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class CancelAction extends AbstractAction {
 

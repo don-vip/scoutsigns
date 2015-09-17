@@ -22,7 +22,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.Status;
  * The observable interface for the {@code StatusChangeObserver} object.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public interface StatusChangeObservable {
 

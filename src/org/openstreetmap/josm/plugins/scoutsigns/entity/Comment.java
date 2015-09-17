@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.entity;
  * Defines the comment business entity.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class Comment {
 

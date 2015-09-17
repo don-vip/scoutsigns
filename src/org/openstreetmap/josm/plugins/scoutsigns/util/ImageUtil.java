@@ -26,7 +26,7 @@ import javax.xml.bind.DatatypeConverter;
  * Utility class used for handle images and pixel data.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class ImageUtil {
 

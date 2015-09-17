@@ -22,7 +22,7 @@ import org.openstreetmap.josm.data.coor.LatLon;
  * Defines the road sign cluster business entity.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class RoadSignCluster {
 

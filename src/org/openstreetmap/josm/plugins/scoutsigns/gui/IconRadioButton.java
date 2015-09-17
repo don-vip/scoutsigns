@@ -27,7 +27,7 @@ import javax.swing.JRadioButton;
  * Defines a custom check box controller. The check box value is represented by an icon.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class IconRadioButton extends JPanel {
 

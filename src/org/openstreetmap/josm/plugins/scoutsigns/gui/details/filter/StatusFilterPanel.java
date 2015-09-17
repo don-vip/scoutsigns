@@ -30,7 +30,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.gui.FontUtil;
  * A custom panel displaying the road sign status filters.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 class StatusFilterPanel extends JPanel {
 

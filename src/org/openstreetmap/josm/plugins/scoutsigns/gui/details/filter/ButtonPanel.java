@@ -23,7 +23,7 @@ import javax.swing.JPanel;
 import org.openstreetmap.josm.plugins.scoutsigns.argument.SearchFilter;
 import org.openstreetmap.josm.plugins.scoutsigns.gui.Builder;
 import org.openstreetmap.josm.plugins.scoutsigns.gui.CancelAction;
-import org.openstreetmap.josm.plugins.scoutsigns.util.cnf.GuiCnf;
+import org.openstreetmap.josm.plugins.scoutsigns.util.cnf.GuiConfig;
 import org.openstreetmap.josm.plugins.scoutsigns.util.pref.PrefManager;
 
 
@@ -31,7 +31,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.pref.PrefManager;
  * Defines the a button panel with "Reset", "OK" and "Cancel" buttons for the road sign filter dialog.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 142 $
  */
 class ButtonPanel extends JPanel {
 
@@ -85,7 +85,7 @@ class ButtonPanel extends JPanel {
 
 
     private void addComponents() {
-        final GuiCnf guiCnf = GuiCnf.getInstance();
+        final GuiConfig guiCnf = GuiConfig.getInstance();
         btnReset = Builder.buildButton(new Action(), guiCnf.getBtnReset());
         btnOk = Builder.buildButton(new Action(), guiCnf.getBtnOk());
         btnCancel = Builder.buildButton(new CancelAction(parent), guiCnf.getBtnCancel());

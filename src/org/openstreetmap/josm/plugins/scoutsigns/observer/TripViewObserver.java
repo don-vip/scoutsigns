@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.observer;
  * Observes the road sign trip visualization user actions.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public interface TripViewObserver {
 

@@ -22,7 +22,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.Status;
  * Observes the road sign status change user action.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public interface StatusChangeObserver {
 

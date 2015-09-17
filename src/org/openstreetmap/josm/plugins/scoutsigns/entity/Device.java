@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.entity;
  * Defines the device business entity. Represents information about the used device.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class Device {
 

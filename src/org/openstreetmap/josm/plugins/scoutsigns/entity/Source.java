@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.entity;
  * Defines the source of a road sign.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public enum Source {
 

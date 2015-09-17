@@ -21,7 +21,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.argument;
  * coordinate: upper latitude, lower latitude, upper longitude and lower longitude.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class BoundingBox {
 

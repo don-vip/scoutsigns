@@ -23,7 +23,7 @@ import java.util.List;
  * Defines the road sign status entity.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public enum Status {
 

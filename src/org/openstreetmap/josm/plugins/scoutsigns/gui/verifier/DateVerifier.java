@@ -24,7 +24,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.gui.DateUtil;
  * Input verifier for the date text field.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class DateVerifier extends AbstractVerifier {
 

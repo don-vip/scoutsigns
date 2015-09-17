@@ -26,7 +26,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.Status;
  * Utility class, formats custom objects.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 141 $
  */
 public final class Formatter {
 
@@ -34,7 +34,7 @@ public final class Formatter {
      * Defines the decimal formats.
      *
      * @author Beata
-     * @version $Revision: 137 $
+     * @version $Revision: 141 $
      */
     public enum DecFormat {
         SHORT("0.00"), LONG("0.000000");

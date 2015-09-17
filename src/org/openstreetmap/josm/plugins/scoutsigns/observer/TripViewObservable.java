@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.observer;
  * The observable interface for the {@code TripViewObserver} object.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public interface TripViewObservable {
 

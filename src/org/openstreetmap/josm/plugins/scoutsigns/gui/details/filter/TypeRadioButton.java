@@ -27,7 +27,7 @@ import javax.swing.JRadioButton;
 /**
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 class TypeRadioButton extends JPanel {
 

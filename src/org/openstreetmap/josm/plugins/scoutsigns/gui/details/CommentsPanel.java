@@ -28,7 +28,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.gui.Formatter;
  * Builds a panel for displaying the {@code Comment}s of the selected road sign.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 class CommentsPanel extends InfoPanel<Collection<Comment>> {
 

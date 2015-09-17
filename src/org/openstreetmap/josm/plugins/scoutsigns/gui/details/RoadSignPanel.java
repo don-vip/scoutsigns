@@ -31,7 +31,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.gui.Formatter.DecFormat;
  * Builds a panel for displaying the details of the selected {@code RoadSign}.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 class RoadSignPanel extends InfoPanel<RoadSign> {
 

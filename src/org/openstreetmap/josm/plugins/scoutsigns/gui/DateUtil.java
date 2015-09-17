@@ -25,7 +25,7 @@ import java.util.TimeZone;
  * Utility class contains date methods used for formatting and parsing date values.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class DateUtil {
 

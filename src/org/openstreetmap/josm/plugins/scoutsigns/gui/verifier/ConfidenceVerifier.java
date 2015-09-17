@@ -22,7 +22,7 @@ import javax.swing.JComponent;
  * Input verifier for the confidence text field.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class ConfidenceVerifier extends AbstractVerifier {
 

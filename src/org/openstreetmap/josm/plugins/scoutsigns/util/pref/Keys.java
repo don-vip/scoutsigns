@@ -21,7 +21,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.util.pref;
  * preference file.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class Keys {
 

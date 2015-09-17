@@ -24,7 +24,7 @@ import javax.swing.JFormattedTextField.AbstractFormatter;
  * Date formatter for text fields.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class DateFormatter extends AbstractFormatter {
 

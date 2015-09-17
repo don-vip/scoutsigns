@@ -29,7 +29,7 @@ import javax.swing.JTextField;
  * validators can extend this class.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 abstract class AbstractVerifier extends InputVerifier implements KeyListener {
 

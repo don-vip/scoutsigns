@@ -13,7 +13,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-package org.openstreetmap.josm.plugins.scoutsigns.service.entity;
+package org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign.entity;
 
 import java.util.List;
 import org.openstreetmap.josm.plugins.scoutsigns.entity.RoadSign;
@@ -24,7 +24,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.RoadSignCluster;
  * Represents the root of the response content returned by the FcdSignService.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class Root {
 

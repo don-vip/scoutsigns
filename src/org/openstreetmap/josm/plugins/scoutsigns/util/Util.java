@@ -30,7 +30,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.RoadSign;
  * Provides utility methods.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class Util {
 

@@ -28,7 +28,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.gui.Formatter;
  * Builds a panel for displaying the properties of a {@code CarPosition}.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 class CarPositionPanel extends InfoPanel<CarPosition> {
 

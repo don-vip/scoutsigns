@@ -33,7 +33,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.retry.RetrySetup;
  * response.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 142 $
  */
 public class HttpConnector {
 
@@ -176,8 +176,8 @@ public class HttpConnector {
             try (BufferedWriter out =
                     new BufferedWriter(new OutputStreamWriter(connection.getOutputStream(), HttpUtil.ENCODING))) {
                 out.write(body);
-            } catch (final IOException e) {
-                throw new HttpException(e);
+            } catch (final IOException ex) {
+                throw new HttpException(ex);
             }
         }
     }
@@ -189,7 +189,6 @@ public class HttpConnector {
             throw new HttpException(e);
         }
     }
-
 
     private InputStream getInputStream(final boolean successStream) throws HttpException {
         InputStream is;

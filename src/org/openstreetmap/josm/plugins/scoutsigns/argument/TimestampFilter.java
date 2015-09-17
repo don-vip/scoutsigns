@@ -23,7 +23,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.ObjectUtil;
  * signs have been created. If any filed of this class is null then it will not be considered as a search criteria.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class TimestampFilter {
 

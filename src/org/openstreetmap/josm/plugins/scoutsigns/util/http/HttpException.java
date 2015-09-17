@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.util.http;
  * Custom exception used when there has been an exception in the HTTP communication.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class HttpException extends Exception {
 

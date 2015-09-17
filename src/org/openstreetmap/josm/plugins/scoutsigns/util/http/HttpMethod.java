@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.util.http;
  * Defines the HTTP methods supported by the {@code HttpConnector}.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public enum HttpMethod {
 

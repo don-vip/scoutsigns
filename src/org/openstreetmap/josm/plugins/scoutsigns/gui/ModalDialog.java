@@ -26,7 +26,7 @@ import org.openstreetmap.josm.Main;
  * Defines a general model dialog.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public abstract class ModalDialog extends JDialog {
 

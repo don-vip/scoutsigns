@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.util.retry;
  * Defines the retry setup for a given method.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class RetrySetup {
 

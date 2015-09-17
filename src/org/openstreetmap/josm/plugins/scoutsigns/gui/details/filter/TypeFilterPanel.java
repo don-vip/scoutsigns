@@ -29,7 +29,7 @@ import javax.swing.JPanel;
 /**
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 class TypeFilterPanel extends JPanel {
 

@@ -24,7 +24,7 @@ import org.openstreetmap.josm.Main;
  * Defines the font types used by the UI.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class FontUtil {
 

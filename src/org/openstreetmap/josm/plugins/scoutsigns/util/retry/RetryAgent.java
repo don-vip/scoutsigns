@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.util.retry;
  * A retry agent attempts several times to execute a given operation.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  * @param <T> the object type to be retried
  */
 public abstract class RetryAgent<T> {

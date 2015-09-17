@@ -13,14 +13,14 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-package org.openstreetmap.josm.plugins.scoutsigns.service.entity;
+package org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign.entity;
 
 
 /**
  * Represents the status information contained in each FCDSearchService response.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class Status {
 

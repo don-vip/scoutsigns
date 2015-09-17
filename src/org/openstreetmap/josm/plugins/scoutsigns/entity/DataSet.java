@@ -23,7 +23,7 @@ import java.util.List;
  * Represents the data set of the {@code ScoutSignsLayer}.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class DataSet {
 

@@ -29,7 +29,7 @@ import org.apache.commons.io.IOUtils;
  * Utility class, contains utility methods for the HTTP communication.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class HttpUtil {
 

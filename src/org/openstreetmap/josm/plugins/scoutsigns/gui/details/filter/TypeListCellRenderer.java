@@ -28,7 +28,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.gui.TypeIconFactory;
  * Custom list cell renderer for road sign types.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 final class TypeListCellRenderer extends DefaultListCellRenderer {
 

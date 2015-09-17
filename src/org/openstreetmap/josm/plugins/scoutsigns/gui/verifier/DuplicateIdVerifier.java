@@ -23,7 +23,7 @@ import javax.swing.JLabel;
  * Input verifier for the duplicate id text field.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class DuplicateIdVerifier extends AbstractVerifier {
 

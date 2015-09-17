@@ -22,7 +22,7 @@ import org.openstreetmap.josm.data.coor.LatLon;
  * Defines the 'sign position' business entity. A sign position represents the geographical position of a road sign.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class SignPosition {
 

@@ -23,7 +23,7 @@ import org.openstreetmap.josm.data.coor.LatLon;
  * time of the road sign creation.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class CarPosition {
 

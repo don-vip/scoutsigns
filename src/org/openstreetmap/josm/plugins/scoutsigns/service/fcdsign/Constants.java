@@ -13,14 +13,14 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-package org.openstreetmap.josm.plugins.scoutsigns.service;
+package org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign;
 
 
 /**
  * Defines the FcdSignService method and parameter names.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 final class Constants {
 

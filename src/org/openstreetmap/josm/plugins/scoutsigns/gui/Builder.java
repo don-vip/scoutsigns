@@ -59,7 +59,7 @@ import org.jdesktop.swingx.JXDatePicker;
  * Helper object, used for creating specific GUI elements.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class Builder {
 

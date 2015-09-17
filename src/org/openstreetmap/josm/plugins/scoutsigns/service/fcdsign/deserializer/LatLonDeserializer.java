@@ -13,7 +13,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-package org.openstreetmap.josm.plugins.scoutsigns.service.deserializer;
+package org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign.deserializer;
 
 import java.lang.reflect.Type;
 import org.openstreetmap.josm.data.coor.LatLon;
@@ -28,7 +28,7 @@ import com.google.gson.JsonParseException;
  * Custom deserializer for the {@code LatLon} object.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class LatLonDeserializer implements JsonDeserializer<LatLon> {
 

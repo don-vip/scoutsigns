@@ -28,7 +28,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.gui.FontUtil;
  * Builds a panel for displaying the details of a {@code Trip}.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 class TripPanel extends InfoPanel<Trip> {
 

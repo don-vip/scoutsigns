@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.entity;
  * Utility class provides helper methods used by the entities.
  *
  * @author Bea
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public final class ObjectUtil {
 

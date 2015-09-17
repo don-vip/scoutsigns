@@ -19,7 +19,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.util.retry;
 /**
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 138 $
  */
 public class RetryAgentException extends Exception {
 
