@@ -17,7 +17,6 @@ package org.openstreetmap.josm.plugins.scoutsigns.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -44,7 +43,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.pref.PrefManager;
  * Executes the service operations corresponding to the user's actions.
  *
  * @author Bea
- * @version $Revision: 138 $
+ * @version $Revision: 144 $
  */
 public final class ServiceHandler {
 
@@ -169,12 +168,12 @@ public final class ServiceHandler {
             sources.add(source);
         }
         final ExecutorService executor = Executors.newFixedThreadPool(sources.size());
-        final List<Future<Collection<RoadSign>>> futureList = new ArrayList<>();
+        final List<Future<List<RoadSign>>> futureList = new ArrayList<>();
         for (final Source source : sources) {
-            final Future<Collection<RoadSign>> future = executor.submit(new Callable<Collection<RoadSign>>() {
+            final Future<List<RoadSign>> future = executor.submit(new Callable<List<RoadSign>>() {
 
                 @Override
-                public Collection<RoadSign> call() throws MapillaryServiceException, FcdSignServiceException {
+                public List<RoadSign> call() throws MapillaryServiceException, FcdSignServiceException {
                     return source == Source.SCOUT ? signService.searchSigns(bbox, filter, zoom)
                             : mapillaryService.searchSigns(bbox, filter);
                 }
@@ -187,9 +186,12 @@ public final class ServiceHandler {
         final List<String> errorMessages = new ArrayList<>();
         for (int i = 0; i < sources.size(); i++) {
             try {
-                result.addAll(futureList.get(i).get());
+                final List<RoadSign> partialResult = futureList.get(i).get();
+                if (partialResult != null) {
+                    result.addAll(futureList.get(i).get());
+                }
             } catch (final Exception ex) {
-                errorMessages.add(sources.get(i) + ex.getMessage());
+                errorMessages.add("Could not obtain data from " + sources.get(i) + ": " + ex.getMessage());
             }
         }
         executor.shutdown();
