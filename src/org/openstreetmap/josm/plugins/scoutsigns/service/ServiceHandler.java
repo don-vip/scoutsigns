@@ -194,7 +194,11 @@ public final class ServiceHandler {
         }
         executor.shutdown();
         if (errorMessages.size() == sources.size()) {
-            throw new Exception(errorMessages.toString());
+            String message = "";
+            for (final String elem : errorMessages) {
+                message += elem + "\n";
+            }
+            throw new Exception(message);
         }
         return result;
     }
