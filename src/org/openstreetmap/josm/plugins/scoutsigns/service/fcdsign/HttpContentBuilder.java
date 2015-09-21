@@ -25,7 +25,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.Status;
  * Helper class, builds the content for the HTTP POST methods.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 class HttpContentBuilder {
 

@@ -27,7 +27,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.cnf.GuiConfig;
  * object of type T.
  *
  * @author Bea
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 abstract class InfoPanel<T> extends JPanel {
 

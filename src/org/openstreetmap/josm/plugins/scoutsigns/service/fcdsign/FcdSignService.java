@@ -24,6 +24,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.CarPosition;
 import org.openstreetmap.josm.plugins.scoutsigns.entity.RoadSign;
 import org.openstreetmap.josm.plugins.scoutsigns.entity.RoadSignCluster;
 import org.openstreetmap.josm.plugins.scoutsigns.entity.SignPosition;
+import org.openstreetmap.josm.plugins.scoutsigns.entity.Source;
 import org.openstreetmap.josm.plugins.scoutsigns.entity.Status;
 import org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign.deserializer.CarPositionDeserializer;
 import org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign.deserializer.LatLonDeserializer;
@@ -41,7 +42,7 @@ import com.google.gson.JsonSyntaxException;
  * Executes the operations of the FcdSignService.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 149 $
  */
 public class FcdSignService {
 
@@ -112,7 +113,12 @@ public class FcdSignService {
         final String url = new HttpQueryBuilder(id).build(Constants.RETRIEVE_SIGN);
         final Root root = executeGet(url);
         verifyStatus(root);
-        return root.getRoadSign();
+        RoadSign roadSign = null;
+        if (root.getRoadSign() != null) {
+            roadSign = root.getRoadSign();
+            roadSign.setSource(Source.SCOUT);
+        }
+        return roadSign;
     }
 
     /**

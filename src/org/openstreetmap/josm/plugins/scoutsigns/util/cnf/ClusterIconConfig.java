@@ -27,7 +27,7 @@ import org.openstreetmap.josm.tools.Pair;
  * Holds road sign cluster icon properties.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 public final class ClusterIconConfig {
 

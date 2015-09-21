@@ -28,7 +28,7 @@ import com.google.gson.JsonParseException;
  * Custom deserializer for the {@code LatLon} object.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 public class LatLonDeserializer implements JsonDeserializer<LatLon> {
 

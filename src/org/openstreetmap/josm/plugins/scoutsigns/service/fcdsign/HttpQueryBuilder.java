@@ -33,7 +33,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.http.HttpUtil;
  * Helper class, builds HTTP request queries.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 class HttpQueryBuilder {
 

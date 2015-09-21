@@ -40,7 +40,7 @@ import org.openstreetmap.josm.tools.Pair;
  * Handles the drawing operations of the layer data.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 class PaintHandler {
 

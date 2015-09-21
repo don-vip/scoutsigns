@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.service.mapillary;
  * Custom exception used by the {@code MapillaryService} object.
  *
  * @author Beata
- * @version $Revision$
+ * @version $Revision: 143 $
  */
 public class MapillaryServiceException extends Exception {
 

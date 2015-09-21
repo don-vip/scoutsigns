@@ -8,7 +8,7 @@
  * agreement you entered into with SKOBBLER SRL.
  *
  * Created on Mar 11, 2015 by Beata
- * Modified on $Date: 2015-06-26 17:45:36 +0300 (Fri, 26 Jun 2015) $
+ * Modified on $Date: 2015-09-17 21:19:25 +0300 (Thu, 17 Sep 2015) $
  *          by $Author: beata.jancso $
  */
 package org.openstreetmap.josm.plugins.scoutsigns.service.mapillary;
@@ -25,7 +25,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.http.HttpUtil;
  * Helper class, builds Mapillary API specific queries.
  *
  * @author Beata
- * @version $Revision: 86 $
+ * @version $Revision: 143 $
  */
 final class HttpQueryBuilder {
 

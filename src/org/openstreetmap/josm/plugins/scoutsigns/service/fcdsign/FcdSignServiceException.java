@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign;
  * Custom exception used by the {@code FcdSignService} object.
  *
  * @author Beata
- * @version $Revision: 137 $
+ * @version $Revision: 143 $
  */
 public class FcdSignServiceException extends Exception {
 

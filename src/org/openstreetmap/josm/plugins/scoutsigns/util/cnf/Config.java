@@ -23,7 +23,7 @@ import java.util.Properties;
  * Holds general run-time configuration properties.
  *
  * @author Bea
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 public final class Config {
 

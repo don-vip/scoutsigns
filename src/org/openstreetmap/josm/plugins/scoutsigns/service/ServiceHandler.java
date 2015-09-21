@@ -43,7 +43,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.pref.PrefManager;
  * Executes the service operations corresponding to the user's actions.
  *
  * @author Bea
- * @version $Revision: 144 $
+ * @version $Revision: 145 $
  */
 public final class ServiceHandler {
 

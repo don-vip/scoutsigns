@@ -25,7 +25,7 @@ import java.util.Properties;
  * Holds road sign types based on the existing sources.
  *
  * @author Beata
- * @version $Revision$
+ * @version $Revision: 143 $
  */
 public final class TypeConfig {
 

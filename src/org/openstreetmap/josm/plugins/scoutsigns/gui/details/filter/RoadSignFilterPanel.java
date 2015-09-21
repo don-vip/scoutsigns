@@ -56,7 +56,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.pref.PrefManager;
  * Displays the possible road sign filters. The filters differ based on the selected source.
  *
  * @author Beata
- * @version $Revision: 142 $
+ * @version $Revision: 148 $
  */
 class RoadSignFilterPanel extends JPanel {
 
@@ -328,7 +328,7 @@ class RoadSignFilterPanel extends JPanel {
         pickerTo.setDate(null);
         pnlStatus.clearSelection();
         txtDupl.setText("");
-        txtConf.setText("" + SearchFilter.DEF_CONFIDENCE);
+        txtConf.setText("" + SearchFilter.DEF_CONFIDENCE.intValue());
         txtUsername.setText("");
         txtAppName.setText("");
         txtAppVers.setText("");

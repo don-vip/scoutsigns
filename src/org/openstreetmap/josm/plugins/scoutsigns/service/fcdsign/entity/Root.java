@@ -24,7 +24,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.RoadSignCluster;
  * Represents the root of the response content returned by the FcdSignService.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 public class Root {
 

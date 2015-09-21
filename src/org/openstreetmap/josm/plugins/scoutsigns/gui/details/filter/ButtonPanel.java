@@ -31,7 +31,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.pref.PrefManager;
  * Defines the a button panel with "Reset", "OK" and "Cancel" buttons for the road sign filter dialog.
  *
  * @author Beata
- * @version $Revision: 142 $
+ * @version $Revision: 143 $
  */
 class ButtonPanel extends JPanel {
 

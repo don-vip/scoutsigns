@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign;
  * Defines the FcdSignService method and parameter names.
  *
  * @author Bea
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 final class Constants {
 

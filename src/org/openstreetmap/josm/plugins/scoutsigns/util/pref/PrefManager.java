@@ -33,7 +33,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.entity.Status;
  * class. Values saved in this global file, can be accessed also after a JOSM restart.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 public final class PrefManager {
 

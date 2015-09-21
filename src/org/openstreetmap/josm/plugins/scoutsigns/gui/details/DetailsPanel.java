@@ -31,7 +31,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.cnf.GuiConfig;
  * Builds a tabbed pane displaying the details of the selected {@code RoadSign}.
  *
  * @author Bea
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 class DetailsPanel extends JTabbedPane {
 

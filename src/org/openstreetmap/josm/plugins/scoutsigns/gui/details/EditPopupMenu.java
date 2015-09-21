@@ -34,7 +34,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.cnf.TltConfig;
  * displayed only if a road sign is selected.
  *
  * @author Beata
- * @version $Revision: 142 $
+ * @version $Revision: 143 $
  */
 class EditPopupMenu extends JPopupMenu {
 

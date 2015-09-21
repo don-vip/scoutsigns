@@ -29,7 +29,7 @@ import com.google.gson.JsonParseException;
  * Custom deserializer for the {@code CarPosition} object.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 public class CarPositionDeserializer implements JsonDeserializer<CarPosition> {
 

@@ -8,7 +8,7 @@
  * agreement you entered into with SKOBBLER SRL.
  *
  * Created on Mar 11, 2015 by Beata
- * Modified on $Date: 2015-05-29 15:34:23 +0300 (Fri, 29 May 2015) $
+ * Modified on $Date: 2015-09-17 21:19:25 +0300 (Thu, 17 Sep 2015) $
  *          by $Author: beata.jancso $
  */
 package org.openstreetmap.josm.plugins.scoutsigns.service.mapillary.entities;
@@ -18,7 +18,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.service.mapillary.entities;
  * Defines the attributes of a matched object (rectangle).
  *
  * @author Beata
- * @version $Revision$
+ * @version $Revision: 143 $
  */
 public class MRectangle {
 

@@ -42,7 +42,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.cnf.TltConfig;
  * Defines the button panel for the road sign details dialog.
  *
  * @author Bea
- * @version $Revision: 142 $
+ * @version $Revision: 143 $
  */
 class ButtonPanel extends JPanel implements TripViewObservable {
 

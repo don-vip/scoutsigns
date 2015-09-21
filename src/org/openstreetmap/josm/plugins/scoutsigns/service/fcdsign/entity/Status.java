@@ -20,7 +20,7 @@ package org.openstreetmap.josm.plugins.scoutsigns.service.fcdsign.entity;
  * Represents the status information contained in each FCDSearchService response.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 public class Status {
 

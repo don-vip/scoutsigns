@@ -28,7 +28,7 @@ import org.openstreetmap.josm.tools.ImageProvider;
  * Factory for the road sign types icons.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 143 $
  */
 public final class TypeIconFactory {
 

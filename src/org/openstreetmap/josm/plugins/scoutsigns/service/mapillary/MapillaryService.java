@@ -8,7 +8,7 @@
  * agreement you entered into with SKOBBLER SRL.
  *
  * Created on Mar 11, 2015 by Beata
- * Modified on $Date: 2015-09-17 21:19:25 +0300 (Thu, 17 Sep 2015) $
+ * Modified on $Date: 2015-09-18 10:30:20 +0300 (Fri, 18 Sep 2015) $
  *          by $Author: beata.jancso $
  */
 package org.openstreetmap.josm.plugins.scoutsigns.service.mapillary;
@@ -37,7 +37,7 @@ import com.google.gson.JsonSyntaxException;
  * Provides access to the Mapillary API.
  *
  * @author Beata
- * @version $Revision: 143 $
+ * @version $Revision: 145 $
  */
 public class MapillaryService {
 

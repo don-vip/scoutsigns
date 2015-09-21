@@ -24,13 +24,13 @@ import org.openstreetmap.josm.data.coor.LatLon;
  * Defines the attributes of a road sign.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 149 $
  */
 public class RoadSign {
 
     private Long id;
     private final String type;
-    private final Source source;
+    private Source source;
     private Long tstamp;
     private Image image;
     private final Short confidence;
@@ -193,5 +193,13 @@ public class RoadSign {
             result = prime * result + ObjectUtil.hashCode(key);
         }
         return result;
+    }
+
+    public void setSource(final Source source) {
+        if (source == null) {
+            this.source = Source.SCOUT;
+        } else {
+            this.source = source;
+        }
     }
 }

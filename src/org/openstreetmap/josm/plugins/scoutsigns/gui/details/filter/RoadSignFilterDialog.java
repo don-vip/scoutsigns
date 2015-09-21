@@ -27,13 +27,13 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.cnf.IconConfig;
  * Dialog window that displays the road sign filters.
  *
  * @author Beata
- * @version $Revision: 138 $
+ * @version $Revision: 150 $
  */
 public class RoadSignFilterDialog extends ModalDialog {
 
     private static final long serialVersionUID = 7883099145424623783L;
 
-    private static final Dimension DIM = new Dimension(390, 402);
+    private static final Dimension DIM = new Dimension(410, 412);
     private RoadSignFilterPanel pnlFilter;
 
 

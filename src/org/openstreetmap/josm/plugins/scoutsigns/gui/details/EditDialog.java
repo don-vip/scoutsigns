@@ -48,7 +48,7 @@ import org.openstreetmap.josm.plugins.scoutsigns.util.pref.PrefManager;
  * Dialog window that displays a comment panel.
  *
  * @author Beata
- * @version $Revision: 142 $
+ * @version $Revision: 143 $
  */
 class EditDialog extends ModalDialog implements StatusChangeObservable {
 

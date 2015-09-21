@@ -49,7 +49,7 @@ import org.openstreetmap.josm.tools.OpenBrowser;
  * Defines a frame for displaying the photo of a selected road sign.
  *
  * @author Beata
- * @version $Revision: 142 $
+ * @version $Revision: 143 $
  */
 class ImageFrame extends JFrame {
 
