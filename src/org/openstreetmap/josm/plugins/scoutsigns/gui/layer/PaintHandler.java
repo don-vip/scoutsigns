@@ -40,7 +40,7 @@ import org.openstreetmap.josm.tools.Pair;
  * Handles the drawing operations of the layer data.
  *
  * @author Beata
- * @version $Revision: 143 $
+ * @version $Revision: 151 $
  */
 class PaintHandler {
 
@@ -113,7 +113,7 @@ class PaintHandler {
             if (selected) {
                 drawIcon(g2D, IconConfig.getInstance().getSelRoadSignBgIcon(), point);
             }
-            drawIcon(g2D, iconFactory.getIcon(roadSign.getSource(), roadSign.getType()), point);
+            drawIcon(g2D, iconFactory.getIcon(roadSign.getType()), point);
         }
     }
 
